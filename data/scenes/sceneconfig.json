@@ -1,0 +1,31 @@
+{
+	"nametext":
+	{
+			"fontName":		"Exo",
+			"fontSize":		30,
+			"offsetX":		10,
+			"offsetY":		39
+	},
+	"scenetext":
+	{
+			"fontName":		"Exo",
+			"fontSize":		32,
+			"offsetX":		20,
+			"offsetY":		-100,
+			"wrapWidth":	880,
+			"align":		"LEFT",
+			"inAnim":		"default",
+			"delay":		500
+	},
+	"scenechoice":
+	{
+			"fontName":		"Exo",
+			"fontSize":		32,
+			"offsetX":		20,
+			"offsetY":		-160,
+			"wrapWidth":	880,
+			"align":		"LEFT",
+			"inAnim":		"default",
+			"delay":		500
+	}
+}

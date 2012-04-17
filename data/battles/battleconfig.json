@@ -1,0 +1,121 @@
+{
+    "background":
+    {
+        "default":
+        {
+            "path":                 "assets/images/battle_bg.png",
+            "width":                480,
+            "height":               320,
+            "x":                    240,
+            "y":                    160
+        }
+    },
+
+    "tileset":
+    {
+        "default":
+        {
+            "path":                 "assets/images/tiles.png",
+            "width":                445,
+            "height":               250,
+            "x":                    245,
+            "y":                    180
+        }
+    },
+
+    "gui":
+    {
+        "fontName":                 "Exo",
+        "fontSize":                 "30"
+    },
+
+    "sprite":
+    {
+        "charA":
+        {
+            "idlerun":
+            {
+                "sheetContentWidth":       595,
+                "sheetContentHeight":      52,
+                "frames":
+                {
+                    "1":
+                    {
+                        "x":        0,
+                        "y":        0,
+                        "width":    40,
+                        "height":   52
+                    },
+
+                    "2":
+                    {
+                        "x":        42,
+                        "y":        0,
+                        "width":    48,
+                        "height":   52
+                    },
+
+                    "3":
+                    {
+                        "x":        91,
+                        "y":        0,
+                        "width":    54,
+                        "height":   52
+                    },
+
+                    "4":
+                    {
+                        "x":        349,
+                        "y":        0,
+                        "width":    60,
+                        "height":   52
+                    },
+
+                    "5":
+                    {
+                        "x":        410,
+                        "y":        0,
+                        "width":    60,
+                        "height":   52
+                    },
+
+                    "6":
+                    {
+                        "x":        473,
+                        "y":        0,
+                        "width":    60,
+                        "height":   52
+                    },
+
+                    "7":
+                    {
+                        "x":        534,
+                        "y":        0,
+                        "width":    60,
+                        "height":   52
+                    },
+                },
+                "sequences":
+                {
+                    "idle":
+                    {
+                        "name":     "idle",
+                        "start":    1,
+                        "count":    3,
+                        "time":     1000,
+                        "loopDirection":    "bounce"
+                    },
+
+                    "run":
+                    {
+                        "name":     "run",
+                        "start":    4,
+                        "count":    3,
+                        "time":     500,
+                        "loopDirection":    "bounce"
+                    }
+                }
+            }
+        }
+    }
+}

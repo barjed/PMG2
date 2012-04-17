@@ -1,0 +1,102 @@
+{
+	"id":			"t01",
+	"bg":			"assets/images/dungeon_bg.png",
+	"description":	"This is a test scene.",
+	"first":		"0101",
+	"actors":
+	{
+		"test1":
+		{
+		    "id":           "test1"
+		},
+		"test2":
+		{
+		    "id":           "test2",
+		    "visible":      "false"
+		}
+	},
+	"scenetexts":
+	{
+		"0101":
+		{
+			"id":			"0101",
+			"next":			"0105",
+			"text":			"Never mind, I'll find someone like you! I wish nothing but the best for you!",
+			"author":		"test1",
+			"authorName":	"Henryk"
+		},
+		
+		"0102":
+		{
+			"id":			"0102",
+			"next":			"0106",
+			"text":			"I am so hiiiiiiiiiigh",
+			"author":		"test1",
+			"authorName":	"Henryk",
+			"sceneEffect": 	"redscreenIn",
+			"delay":		1000,
+			"actorImg":     "evul",
+			"actorEffect":  "shake"
+		},
+
+		"0106":
+		{
+			"id":			"0106",
+			"next":			"0103",
+			"text":			"Not anymore, lol.",
+			"author":		"test1",
+			"authorName":	"Henryk",
+			"actorImg":     "default"
+		},
+
+		"0103":
+		{
+			"id":			"0103",
+			"next":			"0104",
+			"text":			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices nibh non diam.",
+			"author":		"test2",
+			"authorName":	"Kazimierz",
+			"delay":		1000,
+			"actorVisible": "true",
+			"actorEffect":  "fadeIn"
+		},
+		
+		"0104":
+		{
+			"id":			"0104",
+			"next":			"0105",
+			"text":			"Suspendisse eu sapien nisi. Curabitur scelerisque facilisis faucibus. Mauris turpis neque, vehicula nec rutrum sit amet, varius eu est.",
+			"author":		"",
+			"authorName":	"???"
+		},
+		
+		"0105":
+		{
+			"id":			"0105",
+			"text":			"Welcome to the stage of victory. Choose your destiny:",
+			"author":		"test1",
+			"authorName":	"Henryk",
+			"choice":
+			{
+				"0105a":
+				{
+					"no":	0,
+					"text":	"I choose you, Pikachu!",
+					"next":	"0103"
+				},
+				"0105b":
+				{
+					"no":	1,
+					"text":	"Yarr harr, fiddle dee dee",
+					"next":	"0101"
+				},
+				"0105c":
+				{
+					"no":	2,
+					"text":	"Durr hurr.",
+					"next":	"0102"
+				}
+			}
+		}
+	}
+}

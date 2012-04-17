@@ -1,0 +1,29 @@
+{
+ 	"test1":
+ 	{
+ 		"id": "test1",
+ 		"paths":
+ 		{
+            "default":  "assets/images/charA.png",
+            "evul":     "assets/images/charA-evul.png"
+ 		},
+ 		"width": 205,
+ 		"height": 300,
+ 		"offsetX": 10,
+ 		"offsetY": -150,
+ 		"facing": "1"
+ 	},
+ 	"test2":
+ 	{
+ 		"id": "test2",
+ 		"paths":
+ 		{
+            "default":  "assets/images/charB.png"
+ 		},
+ 		"width": 205,
+ 		"height": 300,
+ 		"offsetX": 280,
+ 		"offsetY": -150,
+ 		"facing": "-1"
+ 	}
+ }
