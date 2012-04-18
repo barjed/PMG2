@@ -10,7 +10,7 @@ display.setStatusBar(display.HiddenStatusBar);
 local storyboard = require "storyboard";
 
 -- load mainmenu.lua
-storyboard.gotoScene( "code/battle" );
+storyboard.gotoScene( "code/cutscene" );
 
 -- Add any objects that should appear on all scenes below (e.g. ta
 -- -- b bar, hud, etc.):
